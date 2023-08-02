@@ -6,6 +6,11 @@
     <title>News Homepage</title>
     <!-- ******* css link *******-->
     <link rel="stylesheet" href="style.css" />
+    <!-- ******* font awsome icons css link *******-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -15,7 +20,7 @@
           alt="Logo"
           class="logo"
         />
-        <nav class="navbar">
+        <nav class="navbar active">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">New</a></li>
@@ -24,6 +29,9 @@
             <li><a href="#">Categories</a></li>
           </ul>
         </nav>
+        <div id="menubar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </header>
       <section class="homepage">
         <div class="section-1"></div>
@@ -103,5 +111,7 @@
         </div>
       </section>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
